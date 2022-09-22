@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Homa;
+  src: url(./fonts/homanormal.ttf);
+}
+
+@font-face {
+  font-family: Tajawal;
+  src: url(./fonts/Tajawal-Medium.ttf);
+}
+
+.logo {
+  margin-top: -60px;
+}
+
+.containerBody {
+  max-width: 810px;
+  margin: 0 auto;
+  height: 1140px;
+  background: url(./images/banner.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: 100% 100%;
+}
+.bannerTitle {
+  font-size: 105px;
+  color: #c75b4e;
+  font-weight: 400;
+  line-height: 1;
+  font-family: Homa;
+}
+.subTitle {
+  font-size: 31px;
+  font-family: Tajawal;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.whatsAppBody {
+  height: 72px;
+  max-width: 546px;
+  background: #ff1616;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 580px) {
+  .logo {
+    max-width: 150px;
+  }
+  .bannerTitle {
+    font-size: 70px;
+  }
+  .subTitle {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .bannerTitle {
+    font-size: 50px;
+  }
+  .subTitle {
+    font-size: 22px;
+  }
+  .subTitle {
+    font-size: 17px;
+  }
+}
