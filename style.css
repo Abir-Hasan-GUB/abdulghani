@@ -5,12 +5,12 @@
 }
 @font-face {
   font-family: Homa;
-  src: url(./fonts/homanormal.ttf);
+  src: url(homanormal.ttf);
 }
 
 @font-face {
   font-family: Tajawal;
-  src: url(./fonts/Tajawal-Medium.ttf);
+  src: url(Tajawal-Medium.ttf);
 }
 
 .logo {
@@ -21,7 +21,7 @@
   max-width: 810px;
   margin: 0 auto;
   height: 1140px;
-  background: url(./images/banner.png);
+  background: url(banner.png);
   display: flex;
   align-items: center;
   justify-content: center;
